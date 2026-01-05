@@ -6,7 +6,8 @@ The application is console-based (it does not have a GUI, it is controlled via t
 
 At the moment, the application only supports the analysis of modifications created for the Forge loader, for Minecraft versions higher than 1.14. But in future updates, I will implement support for all types of Minecraft modifications, for all types of loaders.
 
-## To launch the application, download the version you need on the releases page, or simply download the latest version using the button below:<br>
+## Download and launch
+To launch the application, download the version you need on the releases page, or simply download the latest version using the button below:<br>
 [there will be a download button]<br>
 Then move the downloaded **.jar** file to any directory from which you will run it (or leave it in the same one).<br>
 Run any supporting console, for example CMD.exe(if your operating system is Windows).<br>
