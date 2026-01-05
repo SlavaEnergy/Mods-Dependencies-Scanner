@@ -1,33 +1,33 @@
-<p align="right">РУСКОЯЗЫЧНАЯ ВЕРСИЯ</p>
+[ENGLISH VERSION](https://github.com/SlavaEnergy/Mods-Dependencies-Scanner/blob/main/README.md)
 
 # Mods Dependencies Scanner
-This application allows you to quickly display a list of modifications-dependencies of all modifications in the Minecraft build, without launching Minecraft itself and then reading the Crash-log. 
-The application is console-based (it does not have a GUI, it is controlled via the console). After launching, the application will require you to enter the path to the directory (folder) with the 
-modifications, the list of dependencies of which must be displayed. And then it will display the entire list of necessary modifications-dependencies, modifications  that require them, as well as 
-their required version.
+Данное приложение позволяет быстро вывести список модификаций-зависимостей всех модификаций в Minecraft сборке, без запуска самого Minecraft и последующего чтения Crash-log. 
+Приложение консольное(не имеет GUI, управление происходит через консоль). После запуска приложение потребует ввести путь до директории(папки) с модификациями, список зависимостей которых необходимо 
+вывести. А после выведет весь список необходимых, модификации требующие их, а так же требуемую их версию.
 
-At the moment, the application only supports the analysis of modifications created for the Forge loader, for Minecraft versions higher than 1.14. But in future updates, I will implement support 
-for all types of Minecraft modifications, for all types of loaders.
+На данный момент приложение поддерживает лишь анализ модификаций созданных под загрузчик Forge, для Minecraft версии выше 1.14. Но в будущих обновлениях я реализую поддержку всех типов Minecraft 
+модификаций, под все типы загрузчиков.
 
-## To launch the application, download the version you need on the releases page, or simply download the latest version using the button below:
-[there will be a download button]
-Then move the downloaded **.jar** file to any directory from which you will run it (or leave it in the same one).
-Run any supporting console, for example CMD.exe(if your operating system is Windows).
-Navigate to the directory where you placed the downloaded file (the command depends on the console you selected).
-And then do the following in it:
-`java -jar "Mods Dependencies Scanner-1.0.jar"` , by changing the version in the command to the version of the uploaded file.
-This will launch the program, then follow the requirements of the program itself. As soon as the program completes its operation, you must enter the command again to restart it.
-**Attention:** Java of any supported version is required on the JRE system to run the program, but I recommend Java 21.
+## Загрузка и запуск
+Для запуска приложения загрузите нужную вам его версию на странице релизов, либо просто скачайте последнюю его версию по кнопке ниже:
+[тут будет кнопка загрузки]
+После переместите скачанный **.jar** файл любую директорию, из которой вы будете его запускать(или оставьте в той же).
+Запустите любую поддерживающую консоль, например CMD.exe(если ваша операционная система - Windows).
+Перейдите в директорию, в которую вы поместили скачанный файл (команда зависит от выбранной вами консоли).
+А после выполните в ней:
+`java -jar "Mods Dependencies Scanner-1.0.jar"` , изменив версию в команде на версию загруженного файла.
+Это запустит программу, дальше следуйте требованиям самой программы. Как только программа завершит своё действие, для повторного запуска необходимо ввести команду заново.
+**Внимание:** для запуска программы требуется установленный в системе JRE Java любой поддерживаемой версии, но я рекомендую Java 21.
 
-## Compilation
-If you want to recompile the jar file from the source files provided here, you can follow the instructions below, or if you have the skills to do it yourself:
-To compile, you should download the project as a zip archive, unpack it, and then perform further actions with it, or clone this repository and work with it.
-To compile, simply run the following command from the project directory:
+## Компиляция
+Если вы хотите заново скомпилировать jar файл из предоставленных здесь исходных файлов, вы можете проследовать дальнейшей инструкции, либо при наличии навыков выполнить это самостоятельно:
+Для компиляции стоит выгрузить проект, как zip архив, распаковать его, а после выполнять дальнейшие действия с ним, либо клонировать этот репозиторий и работать уже с ним.
+Для компиляции, просто выполните из директории проекта следующую команду:
 `gradle wrapper` ,
-and then this one:
+а затем - эту:
 `gradle build`.
-**Attention:** to compile this program, you will need Gradle installed on the system, as well as JDK Java 21 (or any other supported version, but in this case you willneed to edit the build 
-file.gradle).
+**Внимание:** для компиляции данной программы вам потребуется установленный в системе Gradle, а так же JDK Java 21 (либо любой другой поддерживаемой версии, но в таком случае вам прийдётся 
+отредактировать файл build.gradle).
 
 
-Have a good day to everyone reading this =)
+Удачного дня всем читающим это =)
