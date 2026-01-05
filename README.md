@@ -8,7 +8,10 @@ At the moment, the application only supports the analysis of modifications creat
 
 ## Download and launch
 To launch the application, download the version you need on the releases page, or simply download the latest version using the button below:<br>
-[there will be a download button]<br>
+<a href="https://github.com/SlavaEnergy/Mods-Dependencies-Scanner/releases/download/file/Mods.Dependencies.Scanner-1.0.jar">
+  <img src="https://img.shields.io/badge/Download-JAR-blue?style=for-the-badge">
+</a>
+<br>
 Then move the downloaded **.jar** file to any directory from which you will run it (or leave it in the same one).<br>
 Run any supporting console, for example CMD.exe(if your operating system is Windows).<br>
 Navigate to the directory where you placed the downloaded file (the command depends on the console you selected).<br>
