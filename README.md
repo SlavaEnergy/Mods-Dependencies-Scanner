@@ -1,4 +1,4 @@
-<p align="right">РУСКОЯЗЫЧНАЯ ВЕРСИЯ</p>
+<p align="right">[РУСКОЯЗЫЧНАЯ ВЕРСИЯ](https://github.com/SlavaEnergy/Mods-Dependencies-Scanner/blob/main/README_ru.md)</p>
 
 # Mods Dependencies Scanner
 This application allows you to quickly display a list of modifications-dependencies of all modifications in the Minecraft build, without launching Minecraft itself and then reading the Crash-log. 
