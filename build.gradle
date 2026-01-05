@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group = 'local'
+version = '1.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+dependencies {
+    implementation files('libs/core-3.8.3.jar')
+    implementation files('libs/toml-3.8.3.jar')
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'DependenciesScanner'
+        )
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
